@@ -32,18 +32,18 @@ html, body {
 #lightbox-selected {
   width: 100%;
   margin: 0;
-  margin-bottom: 2rem;
   padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
   background-color: #32373d;
 }
-/* line 47, style.scss */
+/* line 45, style.scss */
 #lightbox-selected .caption {
   display: block;
 }
 
-/* line 52, style.scss */
+/* line 50, style.scss */
 #gallery {
+  margin: 4rem;
   display: -webkit-flex;
   -webkit-flex-direction: row;
   -webkit-flex-wrap: wrap;
@@ -58,16 +58,16 @@ html, body {
   justify-content: center;
 }
 
-/* line 63, style.scss */
+/* line 62, style.scss */
 .entry {
   width: 20rem;
   margin: 2rem;
 }
 
-/* line 68, style.scss */
+/* line 67, style.scss */
 .photo {
   width: 100%;
-  max-width: 70rem;
+  max-width: 50rem;
   height: 100%;
   display: block;
   margin: 0;
@@ -75,7 +75,7 @@ html, body {
   margin-right: auto;
 }
 
-/* line 78, style.scss */
+/* line 77, style.scss */
 .caption {
   display: none;
   font-size: 5rem;
@@ -83,8 +83,7 @@ html, body {
   color: white;
 }
 
-/* line 85, style.scss */
+/* line 84, style.scss */
 .entry {
   width: 20rem;
-  margin: 2rem;
 }
