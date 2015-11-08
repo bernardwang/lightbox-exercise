@@ -77,5 +77,10 @@ html, body{
 	.entry{
 		width: 20rem;
 		margin: $default-spacing;
+		opacity: 1;
+		@include transition(opacity, .3s);
+		&:hover{
+			opacity: .6;
+		}
 	}
 }

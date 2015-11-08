@@ -80,4 +80,13 @@ html, body {
 #gallery .entry {
   width: 20rem;
   margin: 2rem;
+  opacity: 1;
+  -moz-transition: opacity, 0.3s;
+  -o-transition: opacity, 0.3s;
+  -webkit-transition: opacity, 0.3s;
+  transition: opacity, 0.3s;
+}
+/* line 82, style.scss */
+#gallery .entry:hover {
+  opacity: .6;
 }
