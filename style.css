@@ -1,0 +1,90 @@
+/* line 9, style.scss */
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Cabin, Helvetica;
+  font-size: 62.5%;
+  background-color: #E9EBED;
+}
+
+/* line 20, style.scss */
+.lightbox-control {
+  width: 100%;
+  background-color: #32373d;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* line 29, style.scss */
+.lightbox-control #lightbox-back, .lightbox-control #lightbox-next {
+  margin: 2rem;
+  background-color: #32373d;
+  border: 0;
+  color: white;
+  font-size: 2rem;
+}
+
+/* line 38, style.scss */
+#lightbox-selected {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #32373d;
+}
+/* line 47, style.scss */
+#lightbox-selected .caption {
+  display: block;
+}
+
+/* line 52, style.scss */
+#gallery {
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -webkit-flex-flow: center;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 63, style.scss */
+.entry {
+  width: 20rem;
+  margin: 2rem;
+}
+
+/* line 68, style.scss */
+.photo {
+  width: 100%;
+  max-width: 70rem;
+  height: 100%;
+  display: block;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 78, style.scss */
+.caption {
+  display: none;
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+}
+
+/* line 85, style.scss */
+.entry {
+  width: 20rem;
+  margin: 2rem;
+}

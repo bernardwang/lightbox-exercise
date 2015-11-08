@@ -1,0 +1,89 @@
+@import 'compass/css3';
+
+// colors
+$dark: #32373d;
+$light: #E9EBED;
+
+$default-spacing: 2rem;
+
+html, body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	
+	font-family: Cabin, Helvetica;
+	font-size: 62.5%;
+	
+	background-color: $light;
+}
+
+.lightbox-control{
+	width: 100%;
+	background-color: $dark;
+	@include flexbox((
+    display: flex,
+    flex-direction: row,
+		justify-content: center
+  ));
+	
+	#lightbox-back, #lightbox-next{
+		margin: $default-spacing;
+		background-color: $dark;
+		border: 0;
+		color: white;
+		font-size: 2rem;
+	}	
+}
+
+#lightbox-selected{
+	width: 100%;
+	margin: 0;
+
+	margin-bottom: $default-spacing;
+	padding-top: 2*$default-spacing;
+	padding-bottom: 2*$default-spacing;
+	background-color: $dark;
+	
+	.caption{
+		display: block;
+	}
+}
+
+#gallery{
+	@include flexbox((
+    display: flex,
+    flex-direction: row,
+		flex-wrap: wrap,
+		flex-flow: center,
+		align-items: center,
+		justify-content: center
+  ));
+}
+
+.entry{
+	width: 20rem;
+	margin: $default-spacing;
+}
+
+.photo{
+	width: 100%;
+	max-width: 70rem;
+	height: 100%;
+	display:block;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.caption{
+	display: none;
+	font-size: 5rem;
+	text-align: center;
+	color: white;
+}
+
+.entry{
+	width: 20rem;
+	margin: $default-spacing;
+}
+
